@@ -2,7 +2,7 @@ import { ThemeToggle } from "../components/ThemeToggle"
 import { StarBackground } from "../components/StarBackground"
 import { Navbar } from "../components/Navbar"
 import { HeroSection } from "../components/HeroSection"
-import { AboutSection } from "../components/AboutSection"
+import { AboutMe } from "../components/AboutMe"
 
 
 export const Home = () => {
@@ -20,7 +20,7 @@ export const Home = () => {
       {/* Main Content */}
       <main>
         <HeroSection />
-        <AboutSection />
+        <AboutMe />
       </main>
 
       {/* Footer */}
